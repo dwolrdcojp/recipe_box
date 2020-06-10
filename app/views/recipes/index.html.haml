@@ -1,2 +1,3 @@
 - @recipe.each do |recipe|
+  %p= image_tag recipe.image, size: "200"
   %h2= link_to recipe.title, recipe
